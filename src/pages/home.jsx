@@ -125,7 +125,7 @@ function Home() {
           
             <div  className='w-[288.18px] md:w-full h-[28px] flex justify-center items-center  md:mt-4 gap-[2.18px] md:gap-2 '>
             
-            <form onSubmit={handleSubmit} className="flex items-center gap-[2.18px] md:gap-2  pl-4">
+            <form onSubmit={handleSubmit} className="flex items-center gap-[2.18px] md:gap-2  pl-4" netlify>
               
               <div className='w-[173px] md:w-full h-[28px] md:h-[58px] border-[1px] border-purple-100 rounded-xl flex items-center gap-1 md:pl-4 pl-[7px] pr-[3.55px] pt-[5.46px] pb-[5.46px]  bg-white'>
                 <IoMdMail className="text-[#6938ef] w-[10px] md:w-[23px] h-[10px] md:h-[23px]" />
@@ -462,7 +462,7 @@ function Home() {
               </div>
 
               <div className='w-[329.19px] md:w-[566px] h-[28px] md:h-[48px] flex gap-[2.18px] md:gap-[10px] items-center'>
-                <form onSubmit={handleSubmit} className='flex gap-3 items-center w-full h-full md:w-[556px]  '>
+                <form onSubmit={handleSubmit} className='flex gap-3 items-center w-full h-full md:w-[556px]  ' netlify>
                     
                   <div className='w-[217px] md:w-full  h-[28px] md:h-[48px] border-[1px] border-[rgba(234,237,240,1)] pl-2  flex items-center gap-[8px] md:gap-4 rounded-lg bg-[rgba(248,249,250,1)]'>     
                     <div className='w-[14px] h-[14px]  p-[1px] flex items-center justify-center'>
